@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		590B57B7254B3596000ED307 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590B57B6254B3596000ED307 /* Launch Screen.storyboard */; };
+		590B57C5254B4B9D000ED307 /* Audio in Resources */ = {isa = PBXBuildFile; fileRef = 590B57C4254B4B9D000ED307 /* Audio */; };
+		59334C20254AB69700540648 /* Playlist2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59334C1F254AB69700540648 /* Playlist2.swift */; };
+		595535D02549AFBE0012CA54 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595535CF2549AFBE0012CA54 /* Player.swift */; };
+		595535D52549B73A0012CA54 /* Meditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595535D42549B73A0012CA54 /* Meditation.mp3 */; };
+		595535F22549CBD70012CA54 /* ParthenoKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595535F12549CBD70012CA54 /* ParthenoKit.swift */; };
+		59A04ADE25431809003EA5D2 /* BrainistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A04ADD25431809003EA5D2 /* BrainistApp.swift */; };
+		59A04AE025431809003EA5D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A04ADF25431809003EA5D2 /* ContentView.swift */; };
+		59A04AE225431809003EA5D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59A04AE125431809003EA5D2 /* Assets.xcassets */; };
+		59A04AE525431809003EA5D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59A04AE425431809003EA5D2 /* Preview Assets.xcassets */; };
+		59A04AF02543180A003EA5D2 /* BrainistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A04AEF2543180A003EA5D2 /* BrainistTests.swift */; };
+		59A04AFB2543180A003EA5D2 /* BrainistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A04AFA2543180A003EA5D2 /* BrainistUITests.swift */; };
+		59A04B0C25431D7E003EA5D2 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A04B0B25431D7E003EA5D2 /* IntroductionView.swift */; };
+		59A04B1125431DA7003EA5D2 /* InformationContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A04B1025431DA7003EA5D2 /* InformationContainerView.swift */; };
+		59A04B1625431E45003EA5D2 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A04B1525431E45003EA5D2 /* Custom.swift */; };
+		59A04B1B25432B1C003EA5D2 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59A04B1A25432B1C003EA5D2 /* Color.xcassets */; };
+		59CCFE18254C0EC600B5BDE0 /* Track3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59CCFE14254C0EC600B5BDE0 /* Track3.mp3 */; };
+		59CCFE19254C0EC600B5BDE0 /* Track4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59CCFE15254C0EC600B5BDE0 /* Track4.mp3 */; };
+		59CCFE1A254C0EC600B5BDE0 /* Track2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59CCFE16254C0EC600B5BDE0 /* Track2.mp3 */; };
+		59CCFE1B254C0EC600B5BDE0 /* Track1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59CCFE17254C0EC600B5BDE0 /* Track1.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59A04AEC2543180A003EA5D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59A04AD225431809003EA5D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59A04AD925431809003EA5D2;
+			remoteInfo = Brainist;
+		};
+		59A04AF72543180A003EA5D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59A04AD225431809003EA5D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59A04AD925431809003EA5D2;
+			remoteInfo = Brainist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		590B57B6254B3596000ED307 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
+		590B57C4254B4B9D000ED307 /* Audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Audio; sourceTree = "<group>"; };
+		59334C1F254AB69700540648 /* Playlist2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist2.swift; sourceTree = "<group>"; };
+		595535CF2549AFBE0012CA54 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		595535D42549B73A0012CA54 /* Meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Meditation.mp3; sourceTree = "<group>"; };
+		595535F12549CBD70012CA54 /* ParthenoKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParthenoKit.swift; sourceTree = "<group>"; };
+		59A04ADA25431809003EA5D2 /* Brainist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brainist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A04ADD25431809003EA5D2 /* BrainistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainistApp.swift; sourceTree = "<group>"; };
+		59A04ADF25431809003EA5D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		59A04AE125431809003EA5D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59A04AE425431809003EA5D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59A04AE625431809003EA5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59A04AEB2543180A003EA5D2 /* BrainistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A04AEF2543180A003EA5D2 /* BrainistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainistTests.swift; sourceTree = "<group>"; };
+		59A04AF12543180A003EA5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59A04AF62543180A003EA5D2 /* BrainistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A04AFA2543180A003EA5D2 /* BrainistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainistUITests.swift; sourceTree = "<group>"; };
+		59A04AFC2543180A003EA5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59A04B0B25431D7E003EA5D2 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
+		59A04B1025431DA7003EA5D2 /* InformationContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationContainerView.swift; sourceTree = "<group>"; };
+		59A04B1525431E45003EA5D2 /* Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
+		59A04B1A25432B1C003EA5D2 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		59CCFE14254C0EC600B5BDE0 /* Track3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Track3.mp3; path = ../../Track3.mp3; sourceTree = "<group>"; };
+		59CCFE15254C0EC600B5BDE0 /* Track4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Track4.mp3; path = ../../Track4.mp3; sourceTree = "<group>"; };
+		59CCFE16254C0EC600B5BDE0 /* Track2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Track2.mp3; path = ../../Track2.mp3; sourceTree = "<group>"; };
+		59CCFE17254C0EC600B5BDE0 /* Track1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Track1.mp3; path = ../../Track1.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59A04AD725431809003EA5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A04AE82543180A003EA5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A04AF32543180A003EA5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59A04AD125431809003EA5D2 = {
+			isa = PBXGroup;
+			children = (
+				59A04ADC25431809003EA5D2 /* Brainist */,
+				59A04AF92543180A003EA5D2 /* BrainistUITests */,
+				59A04ADB25431809003EA5D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59A04ADB25431809003EA5D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59A04ADA25431809003EA5D2 /* Brainist.app */,
+				59A04AEB2543180A003EA5D2 /* BrainistTests.xctest */,
+				59A04AF62543180A003EA5D2 /* BrainistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59A04ADC25431809003EA5D2 /* Brainist */ = {
+			isa = PBXGroup;
+			children = (
+				590B57B6254B3596000ED307 /* Launch Screen.storyboard */,
+				595535F12549CBD70012CA54 /* ParthenoKit.swift */,
+				59A04ADD25431809003EA5D2 /* BrainistApp.swift */,
+				59A04ADF25431809003EA5D2 /* ContentView.swift */,
+				59A04B0B25431D7E003EA5D2 /* IntroductionView.swift */,
+				59334C1F254AB69700540648 /* Playlist2.swift */,
+				595535CF2549AFBE0012CA54 /* Player.swift */,
+				595535D42549B73A0012CA54 /* Meditation.mp3 */,
+				59CCFE17254C0EC600B5BDE0 /* Track1.mp3 */,
+				59CCFE16254C0EC600B5BDE0 /* Track2.mp3 */,
+				59CCFE14254C0EC600B5BDE0 /* Track3.mp3 */,
+				59CCFE15254C0EC600B5BDE0 /* Track4.mp3 */,
+				59A04AE125431809003EA5D2 /* Assets.xcassets */,
+				59A04B1A25432B1C003EA5D2 /* Color.xcassets */,
+				590B57C4254B4B9D000ED307 /* Audio */,
+				59A04AE625431809003EA5D2 /* Info.plist */,
+				59A04AEE2543180A003EA5D2 /* BrainistTests */,
+				59A04AE325431809003EA5D2 /* Preview Content */,
+				59A04B1025431DA7003EA5D2 /* InformationContainerView.swift */,
+				59A04B1525431E45003EA5D2 /* Custom.swift */,
+			);
+			path = Brainist;
+			sourceTree = "<group>";
+		};
+		59A04AE325431809003EA5D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				59A04AE425431809003EA5D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		59A04AEE2543180A003EA5D2 /* BrainistTests */ = {
+			isa = PBXGroup;
+			children = (
+				59A04AEF2543180A003EA5D2 /* BrainistTests.swift */,
+				59A04AF12543180A003EA5D2 /* Info.plist */,
+			);
+			path = BrainistTests;
+			sourceTree = "<group>";
+		};
+		59A04AF92543180A003EA5D2 /* BrainistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59A04AFA2543180A003EA5D2 /* BrainistUITests.swift */,
+				59A04AFC2543180A003EA5D2 /* Info.plist */,
+			);
+			path = BrainistUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59A04AD925431809003EA5D2 /* Brainist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A04AFF2543180A003EA5D2 /* Build configuration list for PBXNativeTarget "Brainist" */;
+			buildPhases = (
+				59A04AD625431809003EA5D2 /* Sources */,
+				59A04AD725431809003EA5D2 /* Frameworks */,
+				59A04AD825431809003EA5D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brainist;
+			productName = Brainist;
+			productReference = 59A04ADA25431809003EA5D2 /* Brainist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59A04AEA2543180A003EA5D2 /* BrainistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A04B022543180A003EA5D2 /* Build configuration list for PBXNativeTarget "BrainistTests" */;
+			buildPhases = (
+				59A04AE72543180A003EA5D2 /* Sources */,
+				59A04AE82543180A003EA5D2 /* Frameworks */,
+				59A04AE92543180A003EA5D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59A04AED2543180A003EA5D2 /* PBXTargetDependency */,
+			);
+			name = BrainistTests;
+			productName = BrainistTests;
+			productReference = 59A04AEB2543180A003EA5D2 /* BrainistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59A04AF52543180A003EA5D2 /* BrainistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A04B052543180A003EA5D2 /* Build configuration list for PBXNativeTarget "BrainistUITests" */;
+			buildPhases = (
+				59A04AF22543180A003EA5D2 /* Sources */,
+				59A04AF32543180A003EA5D2 /* Frameworks */,
+				59A04AF42543180A003EA5D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59A04AF82543180A003EA5D2 /* PBXTargetDependency */,
+			);
+			name = BrainistUITests;
+			productName = BrainistUITests;
+			productReference = 59A04AF62543180A003EA5D2 /* BrainistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59A04AD225431809003EA5D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					59A04AD925431809003EA5D2 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					59A04AEA2543180A003EA5D2 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 59A04AD925431809003EA5D2;
+					};
+					59A04AF52543180A003EA5D2 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 59A04AD925431809003EA5D2;
+					};
+				};
+			};
+			buildConfigurationList = 59A04AD525431809003EA5D2 /* Build configuration list for PBXProject "Brainist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59A04AD125431809003EA5D2;
+			productRefGroup = 59A04ADB25431809003EA5D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59A04AD925431809003EA5D2 /* Brainist */,
+				59A04AEA2543180A003EA5D2 /* BrainistTests */,
+				59A04AF52543180A003EA5D2 /* BrainistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59A04AD825431809003EA5D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CCFE1B254C0EC600B5BDE0 /* Track1.mp3 in Resources */,
+				59A04AE525431809003EA5D2 /* Preview Assets.xcassets in Resources */,
+				59CCFE1A254C0EC600B5BDE0 /* Track2.mp3 in Resources */,
+				59CCFE19254C0EC600B5BDE0 /* Track4.mp3 in Resources */,
+				59A04AE225431809003EA5D2 /* Assets.xcassets in Resources */,
+				595535D52549B73A0012CA54 /* Meditation.mp3 in Resources */,
+				590B57C5254B4B9D000ED307 /* Audio in Resources */,
+				590B57B7254B3596000ED307 /* Launch Screen.storyboard in Resources */,
+				59CCFE18254C0EC600B5BDE0 /* Track3.mp3 in Resources */,
+				59A04B1B25432B1C003EA5D2 /* Color.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A04AE92543180A003EA5D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A04AF42543180A003EA5D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59A04AD625431809003EA5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A04AE025431809003EA5D2 /* ContentView.swift in Sources */,
+				59A04B1125431DA7003EA5D2 /* InformationContainerView.swift in Sources */,
+				59A04ADE25431809003EA5D2 /* BrainistApp.swift in Sources */,
+				59A04B0C25431D7E003EA5D2 /* IntroductionView.swift in Sources */,
+				59334C20254AB69700540648 /* Playlist2.swift in Sources */,
+				595535F22549CBD70012CA54 /* ParthenoKit.swift in Sources */,
+				595535D02549AFBE0012CA54 /* Player.swift in Sources */,
+				59A04B1625431E45003EA5D2 /* Custom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A04AE72543180A003EA5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A04AF02543180A003EA5D2 /* BrainistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A04AF22543180A003EA5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A04AFB2543180A003EA5D2 /* BrainistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59A04AED2543180A003EA5D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59A04AD925431809003EA5D2 /* Brainist */;
+			targetProxy = 59A04AEC2543180A003EA5D2 /* PBXContainerItemProxy */;
+		};
+		59A04AF82543180A003EA5D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59A04AD925431809003EA5D2 /* Brainist */;
+			targetProxy = 59A04AF72543180A003EA5D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		59A04AFD2543180A003EA5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59A04AFE2543180A003EA5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59A04B002543180A003EA5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Brainist/Preview Content\"";
+				DEVELOPMENT_TEAM = U6336TMRNW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Brainist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asd.Brainist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59A04B012543180A003EA5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Brainist/Preview Content\"";
+				DEVELOPMENT_TEAM = U6336TMRNW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Brainist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asd.Brainist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59A04B032543180A003EA5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6336TMRNW;
+				INFOPLIST_FILE = BrainistTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asd.BrainistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brainist.app/Brainist";
+			};
+			name = Debug;
+		};
+		59A04B042543180A003EA5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6336TMRNW;
+				INFOPLIST_FILE = BrainistTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asd.BrainistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brainist.app/Brainist";
+			};
+			name = Release;
+		};
+		59A04B062543180A003EA5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6336TMRNW;
+				INFOPLIST_FILE = BrainistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asd.BrainistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Brainist;
+			};
+			name = Debug;
+		};
+		59A04B072543180A003EA5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6336TMRNW;
+				INFOPLIST_FILE = BrainistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asd.BrainistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Brainist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59A04AD525431809003EA5D2 /* Build configuration list for PBXProject "Brainist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A04AFD2543180A003EA5D2 /* Debug */,
+				59A04AFE2543180A003EA5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A04AFF2543180A003EA5D2 /* Build configuration list for PBXNativeTarget "Brainist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A04B002543180A003EA5D2 /* Debug */,
+				59A04B012543180A003EA5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A04B022543180A003EA5D2 /* Build configuration list for PBXNativeTarget "BrainistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A04B032543180A003EA5D2 /* Debug */,
+				59A04B042543180A003EA5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A04B052543180A003EA5D2 /* Build configuration list for PBXNativeTarget "BrainistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A04B062543180A003EA5D2 /* Debug */,
+				59A04B072543180A003EA5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59A04AD225431809003EA5D2 /* Project object */;
+}
